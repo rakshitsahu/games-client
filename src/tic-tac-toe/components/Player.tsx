@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Loading from "../../components/Loading";
 
 interface PlayerProps {
   name: string;
@@ -74,6 +75,7 @@ class Player extends Component<PlayerProps, PlayerState> {
             <span style={{ "--value": seconds } as React.CSSProperties}></span>
           </div>
         </div>
+        
       </div>
     );
   }
